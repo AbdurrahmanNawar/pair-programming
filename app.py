@@ -9,7 +9,7 @@ app.config["SECRET_KEY"] = "sesadad*2ssfcr0a123sdet"
 CORS(app)
 
 # Get this URL from the Azure Overview page of your API web app
-api_url = "http://127.0.0.1:5000"  # base url for API endpoints
+api_url = "https://anawar-api-gbf3ffh4egfwb7hu.canadacentral-01.azurewebsites.net"  # base url for API endpoints
 
 # main index page route
 @app.route("/")
